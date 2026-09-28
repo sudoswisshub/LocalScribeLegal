@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · LocalScribe</title>
+<meta name="description" content="LocalScribe collects no personal data. Recordings and transcripts stay on your device.">
+<style>
+  :root {
+    --bg: #f6f6fb; --card: #ffffff; --text: #16161d; --muted: #5d5d6e; --line: #e4e4ee;
+    --brand-a: #5b5bf0; --brand-b: #9b6cf3; --link: #4f4fe0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e0e16; --card: #181824; --text: #f1f1f7; --muted: #a3a3b8; --line: #2a2a3a; --link: #a9a4ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  header { background: linear-gradient(135deg, var(--brand-a), var(--brand-b)); color: #fff; padding: 56px 16px 64px; text-align: center; }
+  header .app { font-size: 15px; font-weight: 600; letter-spacing: .02em; opacity: .85; }
+  header h1 { margin: 6px 0 4px; font-size: clamp(30px, 6vw, 42px); line-height: 1.15; letter-spacing: -.02em; }
+  header p { margin: 0; color: inherit; opacity: .85; font-size: 15px; }
+  nav { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 22px; }
+  nav a { color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,.16); }
+  nav a[aria-current] { background: rgba(255,255,255,.34); }
+  main { max-width: 720px; margin: -32px auto 48px; padding: 0 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 28px clamp(20px, 5vw, 40px); }
+  .summary { border-left: 4px solid var(--brand-a); padding: 12px 16px; background: color-mix(in srgb, var(--brand-a) 8%, transparent); border-radius: 0 12px 12px 0; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 32px 0 8px; letter-spacing: -.01em; }
+  h3 { font-size: 17px; margin: 20px 0 4px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--link); }
+  .muted { color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="app">LocalScribe</div>
+  <h1>Privacy Policy</h1>
+  <p>Effective 28 September 2026</p>
+  <nav>
+    <a href="privacy.html" aria-current="page">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+<main>
+<div class="card">
+  <p class="summary"><strong>In short:</strong> LocalScribe collects nothing about you. Your recordings, transcripts and notes stay on your device. There are no accounts, analytics, advertising or trackers, and transcription never happens in the cloud.</p>
+
+  <h2>Who we are</h2>
+  <p>LocalScribe is developed by Alice Turcanu (“we”, “us”). If you have a question about this policy, write to <a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a>.</p>
+
+  <h2>Information we collect</h2>
+  <p>None. We have no servers that receive your data, and the app has no analytics, crash-reporting, advertising or tracking SDKs. We cannot see, access or recover your recordings or transcripts.</p>
+
+  <h2>What stays on your device</h2>
+  <p>Everything you create in LocalScribe is stored only in the app’s private storage on your iPhone or iPad:</p>
+  <ul>
+    <li>Audio and video you record or import</li>
+    <li>Transcripts, edits, speaker names and voice profiles</li>
+    <li>Folders, tags, bookmarks, chapters, summaries and action items</li>
+    <li>Your settings and custom vocabulary</li>
+  </ul>
+  <p>All processing, including transcription, speaker identification, live captions and summaries, runs on your device. This content is excluded from iCloud and device backups, so it is not copied to Apple’s servers or to your computer. If you delete the app, your content is deleted with it.</p>
+
+  <h2>Network use</h2>
+  <p>LocalScribe only goes online to download machine-learning model files:</p>
+  <ul>
+    <li><strong>Whisper transcription models</strong>: downloaded when you choose one, from the official whisper.cpp model repository hosted on Hugging Face.</li>
+    <li><strong>Speaker identification models</strong>: downloaded once, the first time you turn on speaker identification, from the FluidAudio model repository.</li>
+  </ul>
+  <p>These requests contain no recordings, transcripts or personal information. As with any download, the hosting provider receives your IP address and basic request information under its own privacy policy. We receive none of it.</p>
+  <p>Apple may also download on-device speech assets for live captions through iOS. Apple’s privacy policy covers that.</p>
+
+  <h2>Permissions</h2>
+  <p>LocalScribe asks for these permissions only when a feature needs them. You can change them at any time in the iOS Settings app.</p>
+  <ul>
+    <li><strong>Microphone</strong>: to record audio.</li>
+    <li><strong>Speech recognition</strong>: to show live captions while recording, processed on-device.</li>
+    <li><strong>Face ID / Touch ID</strong>: to lock the app, if you turn on App Lock. We never receive your biometric data; iOS handles it.</li>
+    <li><strong>Reminders</strong>: to add action items to Apple Reminders when you ask us to.</li>
+  </ul>
+
+  <h2>Sharing and exports</h2>
+  <p>Content leaves LocalScribe only when you export or share it yourself, for example to Files, Mail or another app. Once shared, that copy is governed by the destination’s policies.</p>
+
+  <h2>Children</h2>
+  <p>LocalScribe collects no personal information from anyone, including children under 13.</p>
+
+  <h2>Your rights</h2>
+  <p>Because we hold no data about you, there is nothing for us to access, correct, export or delete on your behalf. You stay in full control. You can delete individual items in the app, or delete the app to remove everything.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we will update this page and its effective date. Significant changes will also be noted in the app’s release notes.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a></p>
+</div>
+</main>
+<footer>© 2026 Alice Turcanu · LocalScribe</footer>
+</body>
+</html>

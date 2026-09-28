@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · LocalScribe</title>
+<meta name="description" content="Help and contact for LocalScribe.">
+<style>
+  :root {
+    --bg: #f6f6fb; --card: #ffffff; --text: #16161d; --muted: #5d5d6e; --line: #e4e4ee;
+    --brand-a: #5b5bf0; --brand-b: #9b6cf3; --link: #4f4fe0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e0e16; --card: #181824; --text: #f1f1f7; --muted: #a3a3b8; --line: #2a2a3a; --link: #a9a4ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  header { background: linear-gradient(135deg, var(--brand-a), var(--brand-b)); color: #fff; padding: 56px 16px 64px; text-align: center; }
+  header .app { font-size: 15px; font-weight: 600; letter-spacing: .02em; opacity: .85; }
+  header h1 { margin: 6px 0 4px; font-size: clamp(30px, 6vw, 42px); line-height: 1.15; letter-spacing: -.02em; }
+  header p { margin: 0; color: inherit; opacity: .85; font-size: 15px; }
+  nav { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 22px; }
+  nav a { color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,.16); }
+  nav a[aria-current] { background: rgba(255,255,255,.34); }
+  main { max-width: 720px; margin: -32px auto 48px; padding: 0 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 28px clamp(20px, 5vw, 40px); }
+  .summary { border-left: 4px solid var(--brand-a); padding: 12px 16px; background: color-mix(in srgb, var(--brand-a) 8%, transparent); border-radius: 0 12px 12px 0; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 32px 0 8px; letter-spacing: -.01em; }
+  h3 { font-size: 17px; margin: 20px 0 4px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--link); }
+  .muted { color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="app">LocalScribe</div>
+  <h1>Support</h1>
+  <p>Help &amp; contact</p>
+  <nav>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html" aria-current="page">Support</a>
+  </nav>
+</header>
+<main>
+<div class="card">
+  <p class="summary"><strong>Need help?</strong> Email <a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a>. Please include your device model, iOS version and LocalScribe version (Settings › About). We usually reply within a few working days.</p>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>Where are my recordings and transcripts stored?</h3>
+  <p>Only on your device, in LocalScribe’s private storage. Nothing is uploaded, and we cannot see or recover your content. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <h3>Are my recordings backed up?</h3>
+  <p>No. For privacy, LocalScribe content is excluded from iCloud and device backups. To keep a copy, export transcripts or audio from a recording’s share menu and save them to Files or another app you trust.</p>
+
+  <h3>I deleted a recording by mistake</h3>
+  <p>Deleted transcripts and their audio stay in <strong>Recently Deleted</strong> for 30 days, and you can restore them from there. After 30 days they are removed permanently.</p>
+
+  <h3>Which transcription model should I choose?</h3>
+  <p>Base English works well for most people. Larger models can be more accurate, especially with accents, noisy audio or technical vocabulary, but they take more storage and memory and transcribe more slowly. Choose a multilingual model for languages other than English. You can download or delete models at any time in Settings.</p>
+
+  <h3>A model download failed or is stuck</h3>
+  <p>Check that you are connected to the internet and have enough free storage, then tap <strong>Retry Download</strong>. Downloads continue in the background, and each file is checked before use. If a download keeps failing, delete it in Settings and try again.</p>
+
+  <h3>How can I improve transcription accuracy?</h3>
+  <ul>
+    <li>Record close to the speaker, somewhere quiet.</li>
+    <li>Try a larger model.</li>
+    <li>Add names and jargon to <strong>Custom Glossary</strong> in Settings.</li>
+    <li>Edit segments directly in the transcript. Your edits are kept.</li>
+  </ul>
+
+  <h3>Does LocalScribe work offline?</h3>
+  <p>Yes. Once a model is downloaded, recording, transcription, speaker identification and search all work without an internet connection.</p>
+
+  <h3>I forgot about App Lock and can’t get in</h3>
+  <p>App Lock uses Face ID, Touch ID or your device passcode. If biometrics fail, use your device passcode to unlock.</p>
+
+  <h3>How do I delete all my data?</h3>
+  <p>Delete individual items in the app and empty Recently Deleted, or delete LocalScribe from your device to remove everything at once.</p>
+
+  <h2>Contact</h2>
+  <p>For bug reports, feature requests or anything else: <a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a></p>
+  <p class="muted">Please don’t send recordings or transcripts containing sensitive information by email unless you’re comfortable sharing them.</p>
+</div>
+</main>
+<footer>© 2026 Alice Turcanu · LocalScribe</footer>
+</body>
+</html>
